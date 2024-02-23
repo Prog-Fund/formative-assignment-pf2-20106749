@@ -104,7 +104,7 @@ class ProductTest {
 
             //21 chars - update should be ignored.
             tv42Inches.setProductName("TV 42 Inches - Orange");
-            assertEquals("TV 42 Inches - Orang", tv42Inches.getProductName());
+            assertEquals("TV 42 Inches - White", tv42Inches.getProductName());
         }
 
         @Test
